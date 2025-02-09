@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.lmontes.tallersemana02"
+    namespace = "com.lmontes.myapplication"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.lmontes.tallersemana02"
+        applicationId = "com.lmontes.myapplication"
         minSdk = 30
         targetSdk = 35
         versionCode = 1

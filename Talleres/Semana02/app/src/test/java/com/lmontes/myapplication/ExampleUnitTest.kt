@@ -1,4 +1,4 @@
-package com.lmontes.tallersemana02
+package com.lmontes.myapplication
 
 import org.junit.Test
 
