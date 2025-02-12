@@ -1,4 +1,4 @@
-package com.lmontes.myapplication
+package com.example.semana2
 
 import org.junit.Test
 

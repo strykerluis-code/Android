@@ -1,15 +1,15 @@
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.jetbrains.kotlin.android)
 }
 
 android {
-    namespace = "com.lmontes.myapplication"
+    namespace = "com.example.semana2"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.lmontes.myapplication"
-        minSdk = 30
+        applicationId = "com.example.semana2"
+        minSdk = 25
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"

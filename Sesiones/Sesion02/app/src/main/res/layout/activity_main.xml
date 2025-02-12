@@ -11,21 +11,22 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="76dp"
-        android:text="Mi Primera Actividad"
+        android:layout_marginTop="60dp"
+        android:text="Mi actividad Principal"
         android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnProductos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="124dp"
-        android:layout_marginTop="148dp"
-        android:text="IR A PRODUCTOS"
+        android:layout_marginTop="207dp"
+        android:text="Ir a Productos"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
         android:onClick="goProductos"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

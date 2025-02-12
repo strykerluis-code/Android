@@ -6,10 +6,9 @@
         android:title="Inicio"
         app:showAsAction="always"
         android:icon="@drawable/inicio"/>
-
     <item
         android:id="@+id/menu_producto"
         android:title="Producto"
         app:showAsAction="always"
-        android:icon="@drawable/producto"/>
+        android:icon="@drawable/producto" />
 </menu>
