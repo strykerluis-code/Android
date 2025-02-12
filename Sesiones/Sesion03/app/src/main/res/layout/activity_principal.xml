@@ -9,43 +9,13 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center_horizontal">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Mi Karaoke"
-            android:textSize="50sp"
-            android:layout_marginTop="50dp"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center_vertical"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp">
-
-        <Button
-            android:id="@+id/btnNuevo"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="Nuevo"
-            android:drawableLeft="@drawable/_new"
-            android:paddingLeft="50dp"
-            android:paddingRight="50dp"/>
-
-        <Button
-            android:id="@+id/btnBuscar"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="Buscar"
-            android:drawableLeft="@drawable/search"
-            android:paddingLeft="50dp"
-            android:paddingRight="50dp"/>
 
     </LinearLayout>
 

@@ -1,7 +1,6 @@
 package com.lmontes.semana03
 
 import android.os.Bundle
-import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -17,10 +16,6 @@ class PrincipalActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
-        val btnNuevo = findViewById<Button>(R.id.btnNuevo)
-        val btnBuscar = findViewById<Button>(R.id.btnBuscar)
-
-
     }
+
 }
