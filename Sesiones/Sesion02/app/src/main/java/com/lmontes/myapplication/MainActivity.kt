@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             R.id.menu_producto -> {
-                Log.i("===>", "Click en el menú Productors")
+                Log.i("===>", "Click en el menú Productos")
                 val intent= Intent(this, ProductActivity::class.java)
                 startActivity(intent)
                 return true

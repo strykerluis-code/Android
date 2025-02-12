@@ -37,21 +37,21 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/Imagen01" />
+            android:src="@drawable/imagen01" />
 
         <ImageView
             android:id="@+id/Image2"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/Imagen02"/>
+            android:src="@drawable/imagen02"/>
 
         <ImageView
             android:id="@+id/Image3"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/Imagen03" />
+            android:src="@drawable/imagen03" />
 
 
     </LinearLayout>
